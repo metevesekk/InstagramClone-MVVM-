@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A47D442B87C2EB001ADE1F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A47D432B87C2EB001ADE1F /* SearchBar.swift */; };
 		35B709DE2B8245D300D1BCE1 /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B709DD2B8245D300D1BCE1 /* InstagramCloneApp.swift */; };
 		35B709E22B8245D400D1BCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B709E12B8245D400D1BCE1 /* Assets.xcassets */; };
 		35B709E52B8245D400D1BCE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B709E42B8245D400D1BCE1 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A47D432B87C2EB001ADE1F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		35B709DA2B8245D300D1BCE1 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B709DD2B8245D300D1BCE1 /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
 		35B709E12B8245D400D1BCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				35B70A032B8500E000D1BCE1 /* SearchView.swift */,
+				35A47D432B87C2EB001ADE1F /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				35B70A002B84FF9500D1BCE1 /* MainTabView.swift in Sources */,
 				35B70A0A2B85012600D1BCE1 /* UploadPostView.swift in Sources */,
 				35B70A082B85010F00D1BCE1 /* ProfileView.swift in Sources */,
+				35A47D442B87C2EB001ADE1F /* SearchBar.swift in Sources */,
 				35B70A062B8500F100D1BCE1 /* NotificationsView.swift in Sources */,
 				35B70A0C2B85248200D1BCE1 /* FeedCell.swift in Sources */,
 			);

@@ -22,6 +22,7 @@ struct FeedCell: View {
                 Text("mrbishop")
                     .font(.system(size: 20, weight: .semibold))
             }
+            .padding([.leading, .bottom], 8)
             // post image
             Image("mr-bishop")
                 .resizable()
@@ -57,18 +58,27 @@ struct FeedCell: View {
                         .font(.system(size: 20))
                         .padding(4)
                 })
-            }.foregroundColor(.black)
+            }
+            .padding(.leading, 4)
+            .foregroundColor(.black)
             // caption
+            
+            Text("3 Likes")
+                .font(.system(size: 16, weight: .semibold))
+                .padding(.leading, 5)
+                .padding(.bottom, 2)
             
             HStack {
                 Text("mr-bishop").font(.system(size: 14, weight: .semibold)) +
                 Text(" All men have limits. They learn what the are and learn not to exceed. I ignore mine")
                     .font(.system(size: 15))
-            }
+            }.padding(.horizontal, 6)
+            
             Text("2d")
                 .font(.system(size: 14))
                 .foregroundStyle(.gray)
-                .padding(.top)
+                .padding(.leading, 3)
+                .padding(.top, -1)
         }
     }
 }
