@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SearchBar: View {
     @Binding var text: String
+    @Binding var isEditing: Bool
     
     var body: some View {
         HStack{
@@ -25,11 +26,27 @@ struct SearchBar: View {
                             .padding(.leading, 8)
                     }
                 )
-            
+                .onTapGesture {
+                    isEditing = true
+                }
+            if isEditing{
+                Button {
+                    isEditing = false
+                    text = ""
+                    UIApplication.shared.endEditing()
+                } label: {
+                    Text("Cancel")
+                        .foregroundStyle(.black)
+                }
+                .padding(.trailing, 8)
+                .transition(.move(edge: .trailing))
+                .animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/, value: 1)
+                
+            }
         }
     }
 }
 
 #Preview {
-    SearchBar(text: .constant("Search..."))
+    SearchBar(text: .constant("Search..."), isEditing: .constant(true))
 }
