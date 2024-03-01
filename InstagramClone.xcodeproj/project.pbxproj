@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35782BB72B8E57C100CA1D13 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35782BB62B8E57C100CA1D13 /* NotificationCell.swift */; };
+		35782BB92B8F32BD00CA1D13 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35782BB82B8F32BD00CA1D13 /* ProfileHeaderView.swift */; };
+		35782BBB2B8F911200CA1D13 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35782BBA2B8F911200CA1D13 /* UserStatView.swift */; };
+		35782BBD2B8FA65F00CA1D13 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35782BBC2B8FA65F00CA1D13 /* ProfileActionButtonView.swift */; };
 		35A47D442B87C2EB001ADE1F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A47D432B87C2EB001ADE1F /* SearchBar.swift */; };
 		35B709DE2B8245D300D1BCE1 /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B709DD2B8245D300D1BCE1 /* InstagramCloneApp.swift */; };
 		35B709E22B8245D400D1BCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B709E12B8245D400D1BCE1 /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35782BB62B8E57C100CA1D13 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		35782BB82B8F32BD00CA1D13 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		35782BBA2B8F911200CA1D13 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		35782BBC2B8FA65F00CA1D13 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		35A47D432B87C2EB001ADE1F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		35B709DA2B8245D300D1BCE1 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B709DD2B8245D300D1BCE1 /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
@@ -165,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				35B70A072B85010F00D1BCE1 /* ProfileView.swift */,
+				35782BB82B8F32BD00CA1D13 /* ProfileHeaderView.swift */,
+				35782BBA2B8F911200CA1D13 /* UserStatView.swift */,
+				35782BBC2B8FA65F00CA1D13 /* ProfileActionButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				35B70A052B8500F100D1BCE1 /* NotificationsView.swift */,
+				35782BB62B8E57C100CA1D13 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -324,12 +336,16 @@
 				35B709F22B82484400D1BCE1 /* ContentView.swift in Sources */,
 				35B70A002B84FF9500D1BCE1 /* MainTabView.swift in Sources */,
 				35B70A0A2B85012600D1BCE1 /* UploadPostView.swift in Sources */,
+				35782BB92B8F32BD00CA1D13 /* ProfileHeaderView.swift in Sources */,
 				35B70A082B85010F00D1BCE1 /* ProfileView.swift in Sources */,
+				35782BBB2B8F911200CA1D13 /* UserStatView.swift in Sources */,
 				35C44C2B2B88E4E8006B727E /* UserCell.swift in Sources */,
 				35A47D442B87C2EB001ADE1F /* SearchBar.swift in Sources */,
 				35B70A062B8500F100D1BCE1 /* NotificationsView.swift in Sources */,
 				35B70A0C2B85248200D1BCE1 /* FeedCell.swift in Sources */,
+				35782BBD2B8FA65F00CA1D13 /* ProfileActionButtonView.swift in Sources */,
 				35C44C2D2B88E4F5006B727E /* UserListView.swift in Sources */,
+				35782BB72B8E57C100CA1D13 /* NotificationCell.swift in Sources */,
 				35C44C312B88F068006B727E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
