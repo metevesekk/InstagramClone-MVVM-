@@ -38,8 +38,22 @@ struct MainTabView: View {
             }
             .accentColor(.black)
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    logoutButton
+                }
+            }
             .navigationTitle("Home")
         }
+    }
+    
+    var logoutButton: some View{
+        Button {
+            AuthViewModel.shared.signout()
+        } label: {
+            Text("Logout").foregroundStyle(.black)
+        }
+
     }
 }
 

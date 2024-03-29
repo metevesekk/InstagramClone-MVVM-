@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350F95172BB499C80091B30C /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350F95162BB499C80091B30C /* ImageUploader.swift */; };
 		355801962BB327E20031658B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355801952BB327E20031658B /* AuthViewModel.swift */; };
 		356F3E5A2BB201460031C9E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 356F3E592BB201460031C9E6 /* FirebaseAnalytics */; };
 		356F3E5C2BB201460031C9E6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 356F3E5B2BB201460031C9E6 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -66,6 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350F95162BB499C80091B30C /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		355801952BB327E20031658B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		356F3E922BB203B10031C9E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		35782BB62B8E57C100CA1D13 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		35B709ED2B82475B00D1BCE1 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				350F95162BB499C80091B30C /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				35C44C292B88D200006B727E /* PostGridView.swift in Sources */,
 				35B709DE2B8245D300D1BCE1 /* InstagramCloneApp.swift in Sources */,
 				35AE00E22BA5D9940081C623 /* CustomTextField.swift in Sources */,
+				350F95172BB499C80091B30C /* ImageUploader.swift in Sources */,
 				35B709F22B82484400D1BCE1 /* ContentView.swift in Sources */,
 				35B70A002B84FF9500D1BCE1 /* MainTabView.swift in Sources */,
 				35B70A0A2B85012600D1BCE1 /* UploadPostView.swift in Sources */,
